@@ -1,0 +1,81 @@
+.navbar-brand img{
+    max-height: 40px;
+
+  }
+  header .row{
+    background-image: url('vue3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    min-height: 86vh;
+    align-items: center;
+    color:white;
+    clip-path: polygon(0 0,100% 0,100% 100%, 0% 90%);
+  }
+  header .formReservation{
+    background-color:rgba(0,0,0,0.5);
+    min-height: 86vh;
+    display: flex;
+    align-items: center;
+   
+  }
+  header h1{
+    font-family: 'Raleway', sans-serif;
+  }
+  header h2{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 50px;
+  }
+  header .slogan{
+    display: flex;
+    min-height: 70vh;
+    align-items:flex-end;
+    justify-content:flex-end;
+  }
+  @media (min-width: 768px) { 
+    header.slogan{
+      display: none;
+    }
+   }
+   #presentation .media span{
+     color:#d7b841;
+     font-size: 3rem;
+     
+   }
+   #presentation .media{
+     padding: .5rem 1rem;
+     transition: all .3s ease-in-out; 
+     cursor: pointer;
+     border-radius: 5px;
+   }
+
+   #presentation .media:hover{
+     background-color:grey;
+   }
+   .avisClient{
+     
+     background-color: #d3dae4;
+   }
+   .avisClient span{
+     font-size: 5rem;
+     color:#17a2b8;
+   }
+   .avisClient h5{
+     font-size: 2rem;
+     color:#8888;
+   }
+   .fontChambre{
+     min-height:100vh;
+    background-image: url('chambre.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+   }
+
+
+
+ 
+
+   
+
+  
